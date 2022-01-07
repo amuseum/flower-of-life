@@ -143,7 +143,7 @@ class Circle {
     }
 
     draw() {
-        let color = 0;
+        let color = 1;
         moved = true;
         color = map(mouseX, 0, width, 0, 255);
         stroke(color, 150, intensity);
